@@ -1,0 +1,22 @@
+-- vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+-- vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+vim.keymap.set("n", "J", "<C-d>zz")
+vim.keymap.set("n", "K", "<C-u>zz")
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+
+vim.keymap.set("n", "<leader>y", "\"+y")
+vim.keymap.set("v", "<leader>y", "\"+y")
+
+vim.keymap.set("n", "<leader>s", ":w<CR>")
+vim.keymap.set("n", "gs", ":sp<CR>")
+vim.keymap.set("n", "gv", ":vs<CR>")
+vim.keymap.set("n", "<leader>wh", "<C-w>h")
+vim.keymap.set("n", "<leader>wj", "<C-w>j")
+vim.keymap.set("n", "<leader>wk", "<C-w>k")
+vim.keymap.set("n", "<leader>wl", "<C-w>l")
+vim.keymap.set("n", "<leader>th", ":tabp<CR>")
+vim.keymap.set("n", "<leader>tl", ":tabn<CR>")
+vim.keymap.set("n", "<leader>qs", ":set spell<enter>")
+vim.keymap.set("n", "<leader>qS", ":set spell&<enter>")
