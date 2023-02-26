@@ -4,7 +4,7 @@ Feel free to steal this and do whatever you want.
 
 `git clone https://github.com/davnotdev/dotnvim ~/.config/nvim`
 
-## About ChatCPT
+## About ChatGPT
 
 This config includes ChatGPT which requires an OpenAI api key.
 If you plan on using this, export `OPENAI_API_KEY`.
