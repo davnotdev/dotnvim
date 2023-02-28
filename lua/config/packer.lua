@@ -39,6 +39,8 @@ return require('packer').startup(function(use)
                     close = "<C-c>",
                     scrolldown = "<C-d>",
                     scrollup = "<C-u>",
+                    new_session = "<C-n>",
+                    toggle_settings = "<C-o>",
                 }
             })
         end,
