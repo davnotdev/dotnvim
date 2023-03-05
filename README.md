@@ -40,7 +40,7 @@ remove `after/plugin/chatgpt.lua`.
 | `<C-d>`     | Scroll down in ChatGPT prompt |
 | `<C-u>`     | Scroll up in ChatGPT prompt   |
 | `<C-n>`     | New ChatGPT session           |
-| `<C-n>`     | Open ChatGPT settings         |
+| `<C-o>`     | Open ChatGPT settings         |
 | `<C-space>` | Open LSP completion           |
 | `<space>ld` | See LSP diagnostics           |
 | `<space>lD` | Goto LSP definition           |
