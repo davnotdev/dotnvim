@@ -54,9 +54,10 @@ return require('packer').startup(function(use)
     use 'https://github.com/jose-elias-alvarez/null-ls.nvim'
     use 'https://github.com/MunifTanjim/prettier.nvim'
 
+    use 'norcalli/nvim-colorizer.lua'
+
     -- Navigation
     use 'mfussenegger/nvim-treehopper'
-    use 'ThePrimeagen/harpoon'
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
         requires = { { 'nvim-lua/plenary.nvim' } }
