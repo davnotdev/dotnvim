@@ -97,8 +97,7 @@ I currently have the following installed:
 | `<space>tl` | Go to right tab               |
 | `<space>to` | Open terminal below           |
 | `<space>tO` | Open terminal to the right    |
-| `<space>tb` | Unfocus terminal              |
-| `<space>tk` | Unfocus and close terminal    |
+| `<C-j>`     | Unfocus terminal              |
 | `<space>qs` | Enable spell check            |
 | `<space>qS` | Disable spell check           |
 | `<space>qc` | Open ChatGPT prompt           |
