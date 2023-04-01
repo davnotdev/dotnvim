@@ -50,7 +50,7 @@ lsp.set_server_config({
             completion = { autoimport = { enable = false } },
             checkOnSave = { command = "clippy" },
             -- Maybe this line will cause issues?
-            cargo = { allFeatures = true },
+            -- cargo = { allFeatures = true },
         },
         clangd = { arguments = { "-header-insertion=never" } },
     }
