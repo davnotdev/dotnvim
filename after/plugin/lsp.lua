@@ -1,5 +1,11 @@
 local lsp = require('lsp-zero')
 
+vim.keymap.set("n", "<leader>ld", function() vim.diagnostic.open_float() end)
+vim.keymap.set("n", "<leader>lD", function() vim.lsp.buf.definition() end)
+vim.keymap.set("n", "<leader>lk", function() vim.lsp.buf.hover() end)
+vim.keymap.set("n", "<leader>la", function() vim.lsp.buf.code_action() end)
+vim.keymap.set("n", "<leader>ln", function() vim.lsp.buf.rename() end)
+
 lsp.preset("recommended")
 
 lsp.ensure_installed({})

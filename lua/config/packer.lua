@@ -54,6 +54,8 @@ return require('packer').startup(function(use)
     use 'https://github.com/jose-elias-alvarez/null-ls.nvim'
     use 'https://github.com/MunifTanjim/prettier.nvim'
 
+    use 'akinsho/flutter-tools.nvim'
+
     use 'norcalli/nvim-colorizer.lua'
 
     -- Navigation
