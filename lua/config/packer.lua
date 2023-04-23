@@ -50,6 +50,8 @@ return require('packer').startup(function(use)
             "nvim-telescope/telescope.nvim"
         }
     })
+    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use 'nvim-telescope/telescope-dap.nvim'
 
     use 'https://github.com/jose-elias-alvarez/null-ls.nvim'
     use 'https://github.com/MunifTanjim/prettier.nvim'

@@ -37,6 +37,7 @@ I currently have the following installed:
 - `clangd`
 - `cmake-language-server`
 - `arduino-language-server`
+- `codelldb`
 
 #### C# / Unity
 
@@ -121,3 +122,15 @@ I currently have the following installed:
 | `<space>ls` | List LSP document symbols     |
 | `<space>lw` | List LSP workspace symbols    |
 | `<space>ll` | List LSP diagnostics          |
+| `<space>dt` | Debug toggle menus            |
+| `<space>dc` | Debug commands                |
+| `<space>dC` | Debug launch menu             |
+| `<space>dB` | Debug list breakpoints        |
+| `<space>df` | Debug list frames             |
+| `<space>dn` | Debug continue                |
+| `<space>db` | Debug toogle breakpoint       |
+| `<space>dj` | Debug step into               |
+| `<space>dk` | Debug step over               |
+| `<space>dl` | Debug launch last             |
+| `<space>dK` | Debug hover                   |
+| `<space>dp` | Debug preview                 |
