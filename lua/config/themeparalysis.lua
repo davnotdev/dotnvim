@@ -28,6 +28,8 @@ vim.keymap.set("n", "<leader>qt", function()
         'sunbather',
         'tender',
         'xcodedarkhc',
+        'everblush',
+        'oxocarbon',
     }
 
     local colorscheme = whitelisted[math.random(#whitelisted)]

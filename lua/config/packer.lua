@@ -50,7 +50,7 @@ return require('packer').startup(function(use)
             "nvim-telescope/telescope.nvim"
         }
     })
-    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
     use 'nvim-telescope/telescope-dap.nvim'
 
     use 'https://github.com/jose-elias-alvarez/null-ls.nvim'
@@ -71,6 +71,15 @@ return require('packer').startup(function(use)
 
     -- Editing
     use 'tpope/vim-commentary'
+    use {
+        "kylechui/nvim-surround",
+        tag = "*",
+        config = function()
+            require("nvim-surround").setup({
+                -- Configuration here, or leave empty to use defaults
+            })
+        end
+    }
 
     -- Bling
     use 'nvim-tree/nvim-web-devicons'
@@ -96,5 +105,7 @@ return require('packer').startup(function(use)
     use 'mkarmona/materialbox'
     use 'lmburns/kimbox'
     use { "catppuccin/nvim", as = "catppuccin" }
+    use { 'Everblush/nvim', as = 'everblush' }
+    use "nyoom-engineering/oxocarbon.nvim"
     use 'cocopon/iceberg.vim'
 end)

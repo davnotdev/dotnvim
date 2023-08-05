@@ -80,6 +80,10 @@ I currently have the following installed:
 | `s`         | Hop by search                 |
 | `W`         | Hop by words                  |
 | `m`         | Tree hopper                   |
+| `ys`        | Select Surrounding            |
+| `ds`        | Delete Surrounding            |
+| `cs`        | Change Surrounding            |
+| `dsf`       | Delete Function               |
 | `<space>y`  | Copy to system clipboard      |
 | `<space>b`  | Switch to alternate file      |
 | `<space>qt` | Set random theme              |
