@@ -10,8 +10,10 @@ null_ls.setup({
         null_ls.builtins.formatting.rustfmt,
         null_ls.builtins.formatting.dart_format,
         null_ls.builtins.formatting.cmake_format,
+        null_ls.builtins.formatting.elm_format,
         null_ls.builtins.formatting.lua_format,
         null_ls.builtins.formatting.prettier,
+        null_ls.builtins.formatting.gdformat,
         null_ls.builtins.hover.dictionary,
     },
     on_attach = function(client, bufnr)

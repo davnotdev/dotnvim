@@ -150,3 +150,6 @@ vim.diagnostic.config({
     severity_sort = true,
     float = true,
 })
+
+--  godot lsp
+require 'lspconfig'.gdscript.setup { capabilities = require('cmp_nvim_lsp').default_capabilities() }

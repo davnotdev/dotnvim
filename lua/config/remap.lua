@@ -1,6 +1,9 @@
 -- vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 -- vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+vim.keymap.set("n", "<leader>qgdS", ":set expandtab<CR>")
+vim.keymap.set("n", "<leader>qgds", ":set expandtab&<CR>")
+
 vim.keymap.set({ "v", "n"} , "J", "<C-d>zz")
 vim.keymap.set({ "v", "n" }, "K", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
