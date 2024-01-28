@@ -28,3 +28,6 @@ vim.colorcolumn = "80"
 vim.g.mapleader = ' '
 
 vim.opt.mouse = ''
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1

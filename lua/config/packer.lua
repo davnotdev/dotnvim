@@ -63,7 +63,7 @@ return require('packer').startup(function(use)
     -- Navigation
     use 'mfussenegger/nvim-treehopper'
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        'nvim-telescope/telescope.nvim', tag = '0.1.5',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
     use 'nvim-tree/nvim-tree.lua'
@@ -108,4 +108,6 @@ return require('packer').startup(function(use)
     use { 'Everblush/nvim', as = 'everblush' }
     use "nyoom-engineering/oxocarbon.nvim"
     use 'cocopon/iceberg.vim'
+    use 'plan9-for-vimspace/acme-colors'
+    use 'ntk148v/komau.vim'
 end)
