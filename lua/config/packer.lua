@@ -6,7 +6,7 @@ return require('packer').startup(function(use)
 
     -- LSP / Code
     use 'tpope/vim-fugitive'
-    use 'airblade/vim-gitgutter'
+    use 'https://github.com/jose-elias-alvarez/null-ls.nvim'
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     use {
         'VonHeikemen/lsp-zero.nvim',
@@ -20,45 +20,25 @@ return require('packer').startup(function(use)
             { 'hrsh7th/nvim-cmp' },
             { 'hrsh7th/cmp-buffer' },
             { 'hrsh7th/cmp-path' },
-            { 'saadparwaiz1/cmp_luasnip' },
             { 'hrsh7th/cmp-nvim-lsp' },
             { 'hrsh7th/cmp-nvim-lua' },
 
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
+            { 'saadparwaiz1/cmp_luasnip' },
         }
     }
-    use 'lukas-reineke/indent-blankline.nvim'
-    use({
-        "jackMort/ChatGPT.nvim",
-        config = function()
-            require("chatgpt").setup({
-                keymaps = {
-                    yank_last = "<C-y>",
-                    close = "<C-c>",
-                    scrolldown = "<C-d>",
-                    scrollup = "<C-u>",
-                    new_session = "<C-n>",
-                    toggle_settings = "<C-o>",
-                }
-            })
-        end,
-        requires = {
-            "MunifTanjim/nui.nvim",
-            "nvim-lua/plenary.nvim",
-            "nvim-telescope/telescope.nvim"
-        }
-    })
+
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
     use 'nvim-telescope/telescope-dap.nvim'
 
-    use 'https://github.com/jose-elias-alvarez/null-ls.nvim'
     use 'https://github.com/MunifTanjim/prettier.nvim'
-
     use 'akinsho/flutter-tools.nvim'
-
     use 'norcalli/nvim-colorizer.lua'
+
+    -- Visual Indicators
+    use 'nacro90/numb.nvim'
 
     -- Navigation
     use 'mfussenegger/nvim-treehopper'
@@ -66,8 +46,8 @@ return require('packer').startup(function(use)
         'nvim-telescope/telescope.nvim', tag = '0.1.5',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
-    use 'nvim-tree/nvim-tree.lua'
     use 'phaazon/hop.nvim'
+    use 'nvim-tree/nvim-tree.lua'
 
     -- Editing
     use 'tpope/vim-commentary'

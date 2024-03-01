@@ -4,14 +4,6 @@ Feel free to steal this and do whatever you want.
 
 `git clone https://github.com/davnotdev/dotnvim ~/.config/nvim`
 
-## About ChatGPT
-
-This config includes ChatGPT which requires an OpenAI api key.
-If you plan on using this, export `OPENAI_API_KEY`.
-
-Otherwise, remove `jackMort/ChatGPT.nvim` from `lua/config/packer.lua` and
-remove `after/plugin/chatgpt.lua`.
-
 ## Post Install Setup
 
 Some packages require manual installation.
@@ -105,13 +97,6 @@ I currently have the following installed:
 | `<C-j>`       | Unfocus terminal              |
 | `<space>qs`   | Enable spell check            |
 | `<space>qS`   | Disable spell check           |
-| `<space>qc`   | Open ChatGPT prompt           |
-| `<C-y>`       | Copy last ChatGPT Response    |
-| `<C-c>`       | Close ChatGPT prompt          |
-| `<C-d>`       | Scroll down in ChatGPT prompt |
-| `<C-u>`       | Scroll up in ChatGPT prompt   |
-| `<C-n>`       | New ChatGPT session           |
-| `<C-o>`       | Open ChatGPT settings         |
 | `<C-space>`   | Open LSP completion           |
 | `<space>ld`   | See LSP diagnostics           |
 | `<space>lD`   | Goto LSP definition           |
