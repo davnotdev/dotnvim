@@ -39,6 +39,8 @@ return require('packer').startup(function(use)
 
     -- Visual Indicators
     use 'nacro90/numb.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
+
 
     -- Navigation
     use 'mfussenegger/nvim-treehopper'
