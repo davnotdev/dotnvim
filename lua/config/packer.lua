@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     use {
         'VonHeikemen/lsp-zero.nvim',
+        commit = "9a68651",
         requires = {
             -- LSP Support
             { 'neovim/nvim-lspconfig' },
@@ -30,7 +31,7 @@ return require('packer').startup(function(use)
         }
     }
 
-    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" } }
     use 'nvim-telescope/telescope-dap.nvim'
 
     use 'https://github.com/MunifTanjim/prettier.nvim'

@@ -153,3 +153,5 @@ vim.diagnostic.config({
 
 --  godot lsp
 require 'lspconfig'.gdscript.setup { capabilities = require('cmp_nvim_lsp').default_capabilities() }
+--  phpactor lsp
+require'lspconfig'.phpactor.setup {}
