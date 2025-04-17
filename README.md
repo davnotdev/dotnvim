@@ -1,8 +1,10 @@
 # `davnotdev`'s Neovim Config
 
 > The Neovim ecosystem is far too unstable for constant updates.
+>  
 > Latest known working neovim version: v0.10.4
-> You can fetch this version from github.
+> 
+> You can fetch this version from github. 
 
 Feel free to steal this and do whatever you want.
 
