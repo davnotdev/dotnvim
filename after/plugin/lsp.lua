@@ -132,7 +132,8 @@ lsp.set_server_config({
     settings = {
         ["rust-analyzer"] = {
             completion = { autoimport = { enable = false } },
-            checkOnSave = { command = "clippy" },
+            check = { command = "clippy" },
+            checkOnSave = true,
             -- Maybe this line will cause issues?
             -- cargo = { allFeatures = true },
         },
