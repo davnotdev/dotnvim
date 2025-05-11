@@ -129,3 +129,4 @@ I currently have the following installed:
 | `<space>dp`   | Debug preview                 |
 | `<space>qgdS` | Disable tabs => spaces        |
 | `<space>qgds` | Renable tabs => spaces        |
+| `<space>q2s`  | Set tab width to 2            |
