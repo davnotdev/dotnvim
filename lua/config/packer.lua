@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
 
     -- LSP / Code
     use 'tpope/vim-fugitive'
+    use 'f-person/git-blame.nvim'
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     use 'stevearc/conform.nvim'
     use {
