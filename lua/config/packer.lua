@@ -7,7 +7,7 @@ return require('packer').startup(function(use)
     -- LSP / Code
     use 'tpope/vim-fugitive'
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
-    use 'mhartington/formatter.nvim'
+    use 'stevearc/conform.nvim'
     use {
         'VonHeikemen/lsp-zero.nvim',
         commit = "9a68651",
