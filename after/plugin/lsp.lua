@@ -39,6 +39,8 @@ lsp.on_attach(function(client, bufnr)
         client.resolved_capabilities.document_range_formatting = false
     end
 
+
+
     --  Workaround for Unity
     if client.name == "omnisharp_mono" then
         client.server_capabilities.semanticTokensProvider = {
@@ -142,6 +144,9 @@ lsp.set_server_config({
                         kind = "all_symbols",
                     } 
                 } 
+            },
+            len = {
+                enable = true,
             },
             -- Maybe this line will cause issues?
             -- cargo = { allFeatures = true },

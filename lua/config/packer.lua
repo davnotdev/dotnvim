@@ -32,6 +32,7 @@ return require('packer').startup(function(use)
         }
     }
     use 'vxpm/ferris.nvim'
+    use 'felpafel/inlay-hint.nvim'
 
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" } }
     use 'nvim-telescope/telescope-dap.nvim'
@@ -43,7 +44,6 @@ return require('packer').startup(function(use)
     -- Visual Indicators
     use 'nacro90/numb.nvim'
     use 'lukas-reineke/indent-blankline.nvim'
-
 
     -- Navigation
     use 'mfussenegger/nvim-treehopper'

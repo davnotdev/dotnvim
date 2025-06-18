@@ -107,6 +107,7 @@ I currently have the following installed:
 | `<space>lk`   | See Documentation             |
 | `<space>la`   | LSP code actions              |
 | `<space>ln`   | Auto format                   |
+| `<space>li`   | Show Inlay Hints              |
 | `<space>lg`   | Rust Expand Macro             |
 | `<space>tp`   | Open file tree                |
 | `<space>pf`   | Search files                  |
