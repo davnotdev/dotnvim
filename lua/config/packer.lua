@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
             { 'saadparwaiz1/cmp_luasnip' },
         }
     }
+    use 'vxpm/ferris.nvim'
 
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" } }
     use 'nvim-telescope/telescope-dap.nvim'

@@ -134,6 +134,15 @@ lsp.set_server_config({
             completion = { autoimport = { enable = false } },
             check = { command = "clippy" },
             checkOnSave = true,
+
+            workspace = { 
+                symbol = { 
+                    search = { 
+                        limit = 48000,
+                        kind = "all_symbols",
+                    } 
+                } 
+            },
             -- Maybe this line will cause issues?
             -- cargo = { allFeatures = true },
         },
