@@ -65,6 +65,7 @@ return require('packer').startup(function(use)
             })
         end
     }
+    use 'davnotdev/complongish'
 
     -- Bling
     use 'nvim-tree/nvim-web-devicons'
