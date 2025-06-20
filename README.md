@@ -113,6 +113,7 @@ I currently have the following installed:
 | `<space>pf`   | Search files                  |
 | `<space>pb`   | Search buffers                |
 | `<space>ps`   | Search for text               |
+| `<space>p@`   | Kill all buffers              |
 | `<space>lr`   | List LSP references           |
 | `<space>ls`   | List LSP document symbols     |
 | `<space>lw`   | List LSP workspace symbols    |
