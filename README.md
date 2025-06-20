@@ -80,6 +80,7 @@ I currently have the following installed:
 | `ds`          | Delete Surrounding            |
 | `cs`          | Change Surrounding            |
 | `dsf`         | Delete Function               |
+| `v.`          | Smart Select Object           |
 | `<space>y`    | Copy to system clipboard      |
 | `<space>b`    | Switch to alternate file      |
 | `<space>qt`   | Set random theme              |

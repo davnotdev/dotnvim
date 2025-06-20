@@ -31,15 +31,17 @@ return require('packer').startup(function(use)
             { 'saadparwaiz1/cmp_luasnip' },
         }
     }
-    use 'vxpm/ferris.nvim'
     use 'felpafel/inlay-hint.nvim'
 
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" } }
     use 'nvim-telescope/telescope-dap.nvim'
 
     use 'https://github.com/MunifTanjim/prettier.nvim'
-    use 'akinsho/flutter-tools.nvim'
     use 'norcalli/nvim-colorizer.lua'
+
+    --- Language Tools
+    use 'vxpm/ferris.nvim'
+    use 'akinsho/flutter-tools.nvim'
 
     -- Visual Indicators
     use 'nacro90/numb.nvim'
@@ -53,6 +55,7 @@ return require('packer').startup(function(use)
     }
     use 'phaazon/hop.nvim'
     use 'nvim-tree/nvim-tree.lua'
+    use 'RRethy/nvim-treesitter-textsubjects'
 
     -- Editing
     use 'tpope/vim-commentary'
