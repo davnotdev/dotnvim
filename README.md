@@ -118,6 +118,7 @@ I currently have the following installed:
 | `<space>lr`   | List LSP references           |
 | `<space>ls`   | List LSP document symbols     |
 | `<space>lw`   | List LSP workspace symbols    |
+| `<space>lq`   | List LSP symbols from buffers |
 | `<space>ll`   | List LSP diagnostics          |
 | `<space>dt`   | Debug toggle menus            |
 | `<space>dc`   | Debug commands                |
