@@ -10,10 +10,10 @@ Feel free to steal this and do whatever you want.
 
 ## Post Install Setup
 
-Some packages require manual installation.
-
 ### Packer
 
+You will need to manually install Packer.
+See the Packer docs.
 Install with `:PackerInstall` and update with `:PackerUpdate` and `:PackerSync`
 
 ### Treesitter

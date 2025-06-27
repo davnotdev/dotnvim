@@ -9,9 +9,10 @@ return require('packer').startup(function(use)
     use 'f-person/git-blame.nvim'
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     use 'stevearc/conform.nvim'
+    --[[
     use {
         'VonHeikemen/lsp-zero.nvim',
-        commit = "9a68651",
+        tag = "v4.x",
         requires = {
             -- LSP Support
             { 'neovim/nvim-lspconfig' },
@@ -31,9 +32,28 @@ return require('packer').startup(function(use)
             { 'saadparwaiz1/cmp_luasnip' },
         }
     }
+    ]]--
+
+    -- LSP Support
+    use 'neovim/nvim-lspconfig'
+    use 'williamboman/mason.nvim'
+    use 'williamboman/mason-lspconfig.nvim'
+    -- Autocompletion (cmp sources)
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-path'
+    use 'hrsh7th/cmp-nvim-lsp'
+    -- use 'hrsh7th/cmp-nvim-lsp-document-symbol'
+    -- use 'hrsh7th/cmp-nvim-lsp-signature-help'
+    use 'saadparwaiz1/cmp_luasnip'
+    use 'zjp-CN/nvim-cmp-lsp-rs'
+    -- Snippets
+    use 'L3MON4D3/LuaSnip'
+    use 'rafamadriz/friendly-snippets'
+
     use 'felpafel/inlay-hint.nvim'
 
-    use { 'bassamsdata/namu.nvim' }
+    use 'bassamsdata/namu.nvim'
 
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap", "nvim-neotest/nvim-nio" } }
     use 'nvim-telescope/telescope-dap.nvim'
