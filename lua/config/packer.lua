@@ -9,30 +9,6 @@ return require('packer').startup(function(use)
     use 'f-person/git-blame.nvim'
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
     use 'stevearc/conform.nvim'
-    --[[
-    use {
-        'VonHeikemen/lsp-zero.nvim',
-        tag = "v4.x",
-        requires = {
-            -- LSP Support
-            { 'neovim/nvim-lspconfig' },
-            { 'williamboman/mason.nvim' },
-            { 'williamboman/mason-lspconfig.nvim' },
-
-            -- Autocompletion
-            { 'hrsh7th/nvim-cmp' },
-            { 'hrsh7th/cmp-buffer' },
-            { 'hrsh7th/cmp-path' },
-            { 'hrsh7th/cmp-nvim-lsp' },
-            { 'hrsh7th/cmp-nvim-lua' },
-
-            -- Snippets
-            { 'L3MON4D3/LuaSnip' },
-            { 'rafamadriz/friendly-snippets' },
-            { 'saadparwaiz1/cmp_luasnip' },
-        }
-    }
-    ]]--
 
     -- LSP Support
     use 'neovim/nvim-lspconfig'
@@ -43,8 +19,6 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/cmp-path'
     use 'hrsh7th/cmp-nvim-lsp'
-    -- use 'hrsh7th/cmp-nvim-lsp-document-symbol'
-    -- use 'hrsh7th/cmp-nvim-lsp-signature-help'
     use 'saadparwaiz1/cmp_luasnip'
     use 'zjp-CN/nvim-cmp-lsp-rs'
     -- Snippets

@@ -2,6 +2,8 @@ local cmp = require('cmp')
 
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
+vim.o.completeopt = "menu,menuone,noinsert,noselect"
+
 cmp.setup({
     snippet = {
         expand = function(args)
@@ -14,13 +16,11 @@ cmp.setup({
         ['<C-Space>'] = cmp.mapping.complete(),
         ['<CR>'] = cmp.mapping.confirm({ select = true }),
     }),
-
     sources = cmp.config.sources({
+        { name = 'cmp_lsp_rs' },
+        { name = 'nvim_lsp' },
         { name = 'buffer' },
         { name = 'path' },
-        { name = 'nvim_lsp' },
         { name = 'luasnip' },
-        { name = 'cmp_lsp_rs' },
-    })
+    }),
 })
-
