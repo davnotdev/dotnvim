@@ -2,7 +2,7 @@ local cmp = require('cmp')
 
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
-vim.o.completeopt = "menu,menuone,noinsert,noselect"
+vim.o.completeopt = "noinsert,noselect"
 
 cmp.setup({
     snippet = {
