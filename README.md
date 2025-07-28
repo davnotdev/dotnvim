@@ -82,6 +82,9 @@ I currently have the following installed:
 | `dsf`         | Delete Function               |
 | `v.`          | Smart Select Object           |
 | `<space>y`    | Copy to system clipboard      |
+| `<space>0`    | Go to visual beginning        |
+| `<space>I`    | Insert at visual beginning    |
+| `<space>A`    | Insert at visual end          |
 | `<space>b`    | Switch to alternate file      |
 | `<space>qt`   | Set random theme              |
 | `<space>wh`   | Go to left window             |

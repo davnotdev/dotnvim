@@ -11,6 +11,9 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set({ "v", "n" }, "<leader>y", "\"+y")
+vim.keymap.set("v", "<leader>0", "`<")
+vim.keymap.set("v", "<leader>I", "`>I")
+vim.keymap.set("v", "<leader>A", "`>A")
 
 vim.keymap.set("n", "<leader>s", ":w<CR>")
 vim.keymap.set("n", "gs", ":sp<CR>")
