@@ -11,6 +11,8 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set({ "v", "n" }, "<leader>y", "\"+y")
+
+-- This stuff can be replaced with O in visual mode
 vim.keymap.set("v", "<leader>0", "`<")
 vim.keymap.set("v", "<leader>I", "`>I")
 vim.keymap.set("v", "<leader>A", "`>A")
