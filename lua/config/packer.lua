@@ -79,11 +79,9 @@ return require('packer').startup(function(use)
     use 'YabataDesign/afterglow-theme'
     use 'AlessandroYorba/Alduin'
     use 'ayu-theme/ayu-vim'
-    use 'tyrannicaltoucan/vim-deep-space'
     use 'morhetz/gruvbox'
     use 'nanotech/jellybeans.vim'
     use 'scheakur/vim-scheakur'
-    use 'Rigellute/shades-of-purple.vim'
     use 'arcticicestudio/nord-vim'
     use 'sainnhe/everforest'
     use 'savq/melange'
@@ -93,6 +91,10 @@ return require('packer').startup(function(use)
     use { 'Everblush/nvim', as = 'everblush' }
     use "nyoom-engineering/oxocarbon.nvim"
     use 'cocopon/iceberg.vim'
-    use 'plan9-for-vimspace/acme-colors'
     use 'ntk148v/komau.vim'
+    use 'vague-theme/vague.nvim'
+    use 'everviolet/nvim'
+    use 'rose-pine/neovim'
+    use 'idr4n/github-monochrome.nvim'
+    use 'xero/miasma.nvim'
 end)
