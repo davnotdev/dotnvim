@@ -1,8 +1,9 @@
 # `davnotdev`'s Neovim Config
 
 > The Neovim ecosystem is far too unstable for constant updates.
-> Latest known working neovim version: v0.11.0
+> Latest known working neovim version: v0.12.0
 > You can fetch this version from github.
+> Have a look at the `up-to-v0.XX` branches for older configs.
 
 Feel free to steal this and do whatever you want.
 
@@ -21,6 +22,8 @@ Install with `:PackerInstall` and update with `:PackerUpdate` and `:PackerSync`
 You can either do `:TSInstall all` if you're lazy or manually select languages
 from [here](https://github.com/nvim-treesitter/nvim-treesitter#supported-languages).
 Update with `:TSUpdate`
+
+> Treesitter is unmaintained as of April 2026, let's see how this goes
 
 ### Mason
 

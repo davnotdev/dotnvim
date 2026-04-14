@@ -7,7 +7,9 @@ return require('packer').startup(function(use)
     -- LSP / Code
     use 'tpope/vim-fugitive'
     use 'f-person/git-blame.nvim'
+
     use { 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } }
+    
     use 'stevearc/conform.nvim'
 
     -- LSP Support
@@ -51,7 +53,6 @@ return require('packer').startup(function(use)
     }
     use 'phaazon/hop.nvim'
     use 'nvim-tree/nvim-tree.lua'
-    use 'RRethy/nvim-treesitter-textsubjects'
 
     -- Editing
     use 'tpope/vim-commentary'
@@ -97,4 +98,5 @@ return require('packer').startup(function(use)
     use 'rose-pine/neovim'
     use 'idr4n/github-monochrome.nvim'
     use 'xero/miasma.nvim'
+    use 'AlexvZyl/nordic.nvim'
 end)
