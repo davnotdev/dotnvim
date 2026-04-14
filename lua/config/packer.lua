@@ -48,7 +48,7 @@ return require('packer').startup(function(use)
     -- Navigation
     use 'mfussenegger/nvim-treehopper'
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.5',
+        'nvim-telescope/telescope.nvim',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
     use 'phaazon/hop.nvim'
