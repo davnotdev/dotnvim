@@ -6,7 +6,8 @@ require("conform").setup({
     -- You can also do `:%!npx prettier --stdin-filepath %`
     javascript = { "prettierd", "prettier", stop_after_first = true },
     cpp = { "clang-format" },
-    ocaml = { "ocamlformat" }
+    ocaml = { "ocamlformat" },
+    haskell = { "ormolu" }
   },
 })
 
